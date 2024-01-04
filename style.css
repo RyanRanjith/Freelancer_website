@@ -138,6 +138,9 @@ background-size: 0%;
     }
 
 }
+.menu-icon{
+    display:none ;
+}
 
 /* ----Media Queries for navbar */
 @media only screen and (max-width: 600px){
@@ -150,5 +153,20 @@ background-size: 0%;
         top: 100%;
         text-align: center;
     }
+    .nav-btn{
+        display: none;
+    }
+    nav .logo{
+        width: 150px;
+    }
+    nav ul li{
+        margin: 10px;
+        font-size: 14px;
+    }
+    .menu-icon{
+        display:block;
+        width: 30px;
+    }
 
 }
+
