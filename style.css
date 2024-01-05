@@ -152,6 +152,9 @@ background-size: 0%;
         left: 0;
         top: 100%;
         text-align: center;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s;
     }
     .nav-btn{
         display: none;
@@ -167,6 +170,10 @@ background-size: 0%;
         display:block;
         width: 30px;
     }
+    .show-menu{
+        max-height: 60px;
+    }
+
 
 }
 
